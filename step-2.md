@@ -31,4 +31,5 @@ $ git push origin master
   - The link you copied is the link to your remote repository
   - `origin` is the name of the name of your remote. You don't always have to name is `origin` but it is the convention
   - The second line pushes the changes you made locally on to your remote repository using (you guessed it), the remote `origin`
-
+  - `master` is the name of branch you will be pushing to
+  - Think of it as your base or starting point
