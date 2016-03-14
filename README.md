@@ -1,12 +1,34 @@
-# Step 1
+# Step 2
 
-### Create a repository
-- Go to Github and click the `+` on the top right. It's the symbol next to your profile picture. Click `New repository`
-- Under `Repository name`, give your repository a name! You can name your repository `Cool-Repo`, `ladiez-rock`, `IamAwesome`, `poop`, etc.
-- Make sure `Initialize this repository with a README` is *UNCHECKED*
-- `Add .gitignore` should say *None*
-- `Add a license` should say *None*
-- You should have something which looks like this:
-![CreateRepo](https://lh3.googleusercontent.com/VKlokN2FitbejKDpfzkUMhmX9jZ3kp2MjK9Pi537ebaNT_82VfL0Zzw1SuNPRxpjbfIh4iThOARlLmuUCefjGqcBNeQZLUTxHmAap2nSH8VuVYurk7y8eQmH3NIKf5HWIOdWvO7TyEyTBZS9ivpjx8JsTP0zC9eKyANGw2Bv2svpzzyMfrGbqeryp-NTwCZ9N7lTSInWvug_W_7TvKyvc5wWuAPE9RPlBgpx3ykJzY742kS8dS29d8H8GentIMbiwB7b6jDP35r_x8xMVP3hre9Weso0FMbzrAl1ZG_eI4uT4ZjRb06NgXq1uHtfzviiB5INzlKnv0KlO3mldzwddK6xMuFcvexHENpv6rqwf5FYXC4DGt-uWt9RwB66phiMxZhlposxpWxkbrSb2jhlesUF5uUiiyCuVxQXN7RYPlDUh7wDd8FLg3swDWK96YELYG1hQnp7cRiytKaGyVlwlRZHgyJ78r5V96qRO9cSM1gVahzz0PlfKNNWjbkIvcZ-XtvT8lO8gq39ScYanlgtl1RFyv2qNxDngnOVhxgaTDUXNKNU3vaEdCCxby87ANjQaFrqXA=w857-h621-no)
-- Click `Create repository`
-- You might be greeted with a scary looking page, but don't worry! The next steps are coming up.
+### Initialize, add, and commit
+- Head over to your command line and run these commands.
+```
+$ mkdir "[the name of your repository]"
+$ cd "[the name of your repository]"
+$ echo "# something cool here" >> README.md
+$ git init
+$ git add .
+$ git commit -m "[write a message here]"
+```
+- *What's going on??*
+  - `mkdir` creates a new directory with a specified name
+  - `cd` changes directories and goes into the directory of the specified name
+  - The third line creates a new file called `README.md` and enters "# something cool here" in it
+  - `git init` creates a local repository in the directory you're in
+  - `git add .` adds all the files in the directory to your repo
+  - `git commit -m "first commit"` commits the changes you made locally
+
+### Remotes and push!
+- Next, look for something which says `Quick setup - if you've done this kind of thing before` 
+- Under that, you'll see a two buttons which say `HTTPS` and `SSH`. Make sure `SSH` is selected
+- Next, copy the link next to it
+- Go back to your command line and run the following
+```
+$ git remote add origin [paste the link you copied]
+$ git push origin master
+```
+- *What's going on??*
+  - The link you copied is the link to your remote repository
+  - `origin` is the name of the name of your remote. You don't always have to name is `origin` but it is the convention
+  - The second line pushes the changes you made locally on to your remote repository using (you guessed it), the remote `origin`
+
