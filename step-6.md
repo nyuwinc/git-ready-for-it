@@ -12,6 +12,6 @@ $ git push origin master
 ```
 
 ### Do this on your **partner's** repo
-- Create and checkout a branch
+- Create and checkout a branch on **your partner's repo**
 - Add, commit, and push the changes you made to your **partner's** repo to the branch you just created
 
