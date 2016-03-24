@@ -10,7 +10,7 @@ $ git init
 $ git add .
 $ git commit -m "[write a message here]"
 ```
-- *What's going on??*
+- **What's going on??**
   - `mkdir` creates a new directory with a specified name
   - `cd` changes directories and goes into the directory of the specified name
   - The third line creates a new file called `README.md` and enters "# something cool here" in it
