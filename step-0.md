@@ -1,7 +1,7 @@
 # Step 0
 
 ### Configure tooling
-You'll be configuring user information for all local repositories. The `$` means you'll run the commands on the command line. You should not include it. Run the following on your command line:
+You'll be configuring user information for all local repositories. The `$` means you'll run the commands on the command line. You should not include it when you're entering a command. Run the following on your command line:
 ```
 $ git config --global user.name "[your name]"
 $ git config --global user.email "[email address]"
