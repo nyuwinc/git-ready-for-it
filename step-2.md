@@ -27,9 +27,8 @@ $ git commit -m "[write a message here]"
 $ git remote add origin [paste the link you copied]
 $ git push origin master
 ```
-- *What's going on??*
+- **What's going on??**
   - The link you copied is the link to your remote repository
   - `origin` is the name of the name of your remote. You don't always have to name is `origin` but it is the convention
-  - The second line pushes the changes you made locally on to your remote repository using (you guessed it), the remote `origin`
-  - `master` is the name of branch you will be pushing to
-  - Think of it as your base or starting point
+  - The second line pushes the changes you made locally on to your remote repository using the remote `origin`
+  - `master` is the name of branch you will be pushing to.
