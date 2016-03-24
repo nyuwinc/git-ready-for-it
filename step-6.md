@@ -1,3 +1,4 @@
+# Step 6
 ### Locally make an edit on both *your partner's* and *your* README
 - Navigate to your repo's directory
 - Open up your README file and make a change
