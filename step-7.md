@@ -1,7 +1,7 @@
 # Step 7
 
 ### Local Branch
-- On **your** repo, create a branch with the same name as the branch your partner just created on your repo
+- On **your** repo, create a branch with the same name as the branch your partner created on your repo
 - For example, if your partner pushed to a branch called `brown-branch`, your command should look like this
 ```
 $ git checkout -b brown-branch
@@ -35,3 +35,4 @@ Your partner's cool text is here
 - Remove or keep text as you please
 - Remove `<<<<<<<<<<< HEAD`, `>>>>>>>>>>>` and `==========`
 - Add, commit, push
+- Keep practicing creating and resolving merge conflicts
