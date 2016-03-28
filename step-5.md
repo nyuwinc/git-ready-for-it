@@ -9,7 +9,7 @@
 - Navigate to your partner's remote repo and clone it on your command line
 ```
 $ cd ..
-$ git clone [ ssh link of the repo of your partner ]
+$ git clone [ https link of the repo of your partner ]
 $ cd [ repo of your partner ]
 ```
 
