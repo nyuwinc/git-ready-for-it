@@ -1,17 +1,10 @@
 # Step 7
 
-### Local Branch
-- On **your** repo, create a branch with the same name as the branch your partner created on your repo
-- For example, if your partner pushed to a branch called `brown-branch`, your command should look like this
+### On **your** repo
+- Pull from master like so
 ```
-$ git checkout -b brown-branch
+git pull origin master -f
 ```
-- Now, checkout to your master branch and merge the changes on your partner's branch
-```
-$ git checkout master
-$ git merge [ partner branch ]
-```
-- You should run into a merge conflict
 
 ### MERGE CONFLICT!!!
 - Don't panic, it's only a merge conflict!
