@@ -7,13 +7,10 @@
 - Navigate to **your partner's** local repo on your computer
 - Open up your partner's README file and edit it
 
-### Back to *your* README
+### Back to *your partner's* README
 - Add, commit, and push the changes made on **your** repo
 ```
 $ git add README.md
 $ git commit -m "[ your message ]"
 $ git push origin master
 ```
-
-### Back to *your partner's* README
-- Add, commit, and push the changes you made to **your partner's repo** to the branch you just created in the previous step
