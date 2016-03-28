@@ -10,3 +10,4 @@ FYI, if you don't have a Github account, you should make one now! :smile:
 
 ### Helpful links
 - [Try Github](https://try.github.io/levels/challenges/1)
+- [Codecademy](https://www.codecademy.com/en/courses/learn-git/)
