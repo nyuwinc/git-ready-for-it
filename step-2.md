@@ -20,7 +20,7 @@ $ git commit -m "[write a message here]"
 
 ### Remotes and push!
 - Next, look for something which says `Quick setup - if you've done this kind of thing before` 
-- Under that, you'll see a two buttons which say `HTTPS` and `SSH`. Make sure `SSH` is selected
+- Under that, you'll see a two buttons which say `HTTPS` and `SSH`. Make sure `HTTPS` is selected
 - Next, copy the link next to it
 - Go back to your command line and run the following
 ```
