@@ -2,21 +2,21 @@
 
 In Step 6 and Step 7, you learned about merging and merge conflicts. This step shows you how to merge without the conflicts
 
-### On *your* README
+### On ***your*** repo
 - Navigate to **your** local repo
 - Open up your README file and make a change
 - Add, commit, and push
 
-### On *your* partner's README
+### On ***your partner's*** repo
 - Navigate to **your partner's** local repo on your computer
 - Pull from `origin master`
 ```
 git pull origin master -f
 ```
 - Open up your partner's README file and edit it
-- Add, commit, and push to your branch
+- Add, commit, and push to master
 
-### Back to *your* README
+### Back to ***your*** repo
 - Pull from `origin master`
 
 ### **How is this happening??**
