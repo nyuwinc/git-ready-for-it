@@ -6,3 +6,5 @@ FYI, if you don't have a Github account, you should make one now! :smile:
 - To start with step 0, go to `step-0.md`
 - Commands which have `[ some text here ]` means that command is dependent on what you decide to name it
 - If you have any questions, raise your hand, and we will help!
+### Helpful links
+- [Try Github](https://try.github.io/levels/challenges/1)
