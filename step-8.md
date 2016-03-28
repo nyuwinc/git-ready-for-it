@@ -9,19 +9,18 @@ In Step 6 and Step 7, you learned about merging and merge conflicts. This step s
 
 ### On *your* partner's README
 - Navigate to **your partner's** local repo on your computer
-- Create and checkout a branch on **your partner's repo**
+- Pull from `origin master`
+```
+git pull origin master -f
+```
 - Open up your partner's README file and edit it
 - Add, commit, and push to your branch
 
 ### Back to *your* README
-- Create branch with the same name as that of your partner's
-- Merge the two
-```
-git checkout master
-git merge [ partner's branch ]
-```
-- **How is this happening??**
+- Pull from `origin master`
+
+### **How is this happening??**
 In Step 6 and Step 7, you and your partner were both altering the same file. In this step, Step 8, you pushed your local changes to the repo before your partner made an edit. The file your partner altered was the file you just pushed. Git recognized the two files were at different states and automatically merged the files
-- **How is this relevant??**
+### **How is this relevant??**
 IRL, you're going to be working with other people on projects and repos. You should get used to pushing, merging, and fixing merge conflicts because you'll encounter them often. Keep practicing merging and solving merge conflicts!
 
