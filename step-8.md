@@ -4,7 +4,7 @@ In Step 6 and Step 7, you learned about merging and merge conflicts. This step s
 
 ### On ***your*** repo
 - Navigate to **your** local repo
-- Open up your README file and make a change
+- Open up your README file, make a change, and save
 - Add, commit, and push
 
 ### On ***your partner's*** repo
@@ -13,7 +13,7 @@ In Step 6 and Step 7, you learned about merging and merge conflicts. This step s
 ```
 git pull origin master -f
 ```
-- Open up your partner's README file and edit it
+- Open up your partner's README file, make a change, and save
 - Add, commit, and push to master
 
 ### Back to ***your*** repo
